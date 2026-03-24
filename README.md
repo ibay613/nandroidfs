@@ -5,7 +5,7 @@ NandroidFS is a filesystem for Windows which allows Android devices connected to
 
 NandroidFS is not a kernel mode driver, but instead uses [Dokan](https://github.com/dokan-dev/dokany). This allows NandroidFS, which runs as a regular user-mode application, to respond to filesystem requests.
 
-## Why use NandroidFS?
+## Why use NandroidFS? 
 Android devices can already be accessed in Windows Explorer using the [Media Transfer Protocol](https://en.wikipedia.org/wiki/Media_Transfer_Protocol), however this does NOT mean that they are mounted as drives. So you can't use the device in the terminal/shell scripts. Explorer's MTP integration is slow and limited, and this is somewhat inevitable given the limitations of the protocol. 
 
 MTP only allows downloading/uploading a whole file, and has no support for editing files in place/streaming data.

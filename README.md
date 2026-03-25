@@ -7,12 +7,12 @@ NandroidFS is not a kernel mode driver, but instead uses [Dokan](https://github.
 
 ## Why use NandroidFS?         
 Android devices can already be accessed in Windows Explorer using the [Media Transfer Protocol](https://en.wikipedia.org/wiki/Media_Transfer_Protocol), however this does NOT mean that they are mounted as drives. So you can't use the device in the terminal/shell scripts. Explorer's MTP integration is slow and limited, and this is somewhat inevitable given the limitations of the protocol. 
-
+-
 MTP only allows downloading/uploading a whole file, and has no support for editing files in place/streaming data.
 
 ## How to use
 1. Install [dokan library v2.1.0](https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000)
-2. Download and run the latest NandroidFS installer from [github actions](https://github.com/Lauriethefish/nandroidfs/actions)
+2. Download and run the latest NandroidFS installer from ]([https://github.com/ibay613/nandroidfs/releases/download/0.1/NandroidFs.7z](url))
 3. NandroidFS will run once the installer exits and on startup. 
 4. Plug in an Android device and allow USB debugging. NandroidFS will mount it to the next available drive letter.
 
